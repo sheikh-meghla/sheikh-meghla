@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX Designer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Portfolio</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#blog" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="hero-greeting">Hello, I'm</span>
+                    <span class="hero-name">Meghla </span>
+                    <span class="hero-role">UI/UX Designer</span>
+                </h1>
+                <p class="hero-description">
+                    Creating digital experiences that merge beautiful design with seamless functionality.
+                    Passionate about user-centered design and innovative 3D interfaces.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-3d">
+                <canvas id="hero-canvas"></canvas>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A showcase of my latest UI/UX design work</p>
+            </div>
+
+            <!-- <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ui">UI Design</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="3d">3D Design</button>
+            </div> -->
+
+
+
+            <div class="portfolio-grid" id="portfolio-grid">
+                <!-- UI Design Projects -->
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image"> <img src="project-images/ten-minute-school/8.png" alt="Mobile App UI Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Ten Minute School</h3>
+                                <p>10 Minute School (Bengali: ১০ মিনিট স্কুল, abbreviated as 10MS) is an online
+                                    educational platform in Bangladesh created in 2015 by Ayman Sadiq.</p> <button
+                                    class="view-project" data-project="TenMinuteSchool">View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="project-images/bkash/4.png" alt="Dashboard Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>bkash</h3>
+                                <p>Clean and functional dashboard interface for data visualization</p>
+                                <button class="view-project" data-project="bkash">View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="project-images/pathao/1.png">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Pathao </h3>
+                                <p>User-friendly shopping experience with modern design patterns</p>
+                                <button class="view-project" data-project="pathao">View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="project-images/imo/1.png">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>imo</h3>
+                                <p>imo হলো একটি জনপ্রিয় instant messaging & calling app। এটি মূলতঃ video call, voice call, এবং text chat করার জন্য ব্যবহৃত হয়।</p>
+                                <button class="view-project" data-project="imo">View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="project-images/6.png">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>amazon</h3>
+                                <p>Amazon হলো বিশ্বের সবচেয়ে বড় e-commerce এবং technology company।...</p>
+                                <button class="view-project" data-project="amazon">View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="project-images/7.png">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>body fitness</h3>
+                                <p>A Body Fitness App হলো এমন একটি mobile application যা ব্যবহারকারীদের স্বাস্থ্য ও ফিটনেস উন্নত করতে সাহায্য করে। সাধারণত এতে exercise plans, diet suggestions, progress tracking ইত্যাদি থাকে।</p>
+                                <button class="view-project" data-project="bodyFitness">View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Design Projects -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="project-images/Sobji-bazar/1.png">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>sobji bazar</h3>
+                                <p>Sobji Bazar মানে হলো অনলাইনে বা অফলাইনে সবজি কেনাবেচার বাজার। বর্তমানে অনেক e-commerce বা mobile app আছে যেগুলো তাজা শাকসবজি, ফল, মসলা ইত্যাদি বাসায় ডেলিভারি দেয়।</p>
+                                <button class="view-project" data-project="sobjibazar">View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="project-images/9.png">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>youtube</h3>
+                                <p>YouTube হলো বিশ্বের সবচেয়ে বড় video-sharing platform, যেটি 2005 সালে চালু হয় এবং বর্তমানে ....</p>
+                                <button class="view-project" data-project="youtube">View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="project-images/tiktok/1.png">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>tiktok</h3>
+                                <p>TikTok হলো একটি জনপ্রিয় short-video sharing app, যেখানে ব্যবহারকারীরা সাধারণত 15 সেকেন্ড থেকে 10 মিনিট পর্যন্ত ভিডিও তৈরি ও শেয়ার করতে পারে। এটি ...</p>
+                                <button class="view-project" data-project="tiktok">View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="project-images/arbi-laerning/1.png">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Arbi learing</h3>
+                                <p>Arabic Learning মানে হলো আরবি ভাষা শেখার জন্য বিশেষভাবে তৈরি apps / platforms / courses। এগুলোতে সাধারণতঃ reading, writing, speaking, Quranic Arabic শেখার সুযোগ থাকে।</p>
+                                <button class="view-project" data-project="arbiLearning">View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-header">
+                        <h2 class="section-title">About Me</h2>
+                        <p class="section-subtitle">Passionate designer crafting digital experiences</p>
+                    </div>
+                    <div class="about-description">
+                        <p>
+                          I am Meghla, a talented and passionate UI/UX designer with a deep interest in design and creativity. For me, design is not just work—it is a medium through which I create simple, beautiful, and effective digital experiences for users. I primarily design mobile apps, websites, and onboarding flows, where both user experience and visual aesthetics are equally important.
+
+                         Through my skills and experience, I am able to find simple solutions to complex problems. I am always eager to learn new design trends and tools, which helps me become a more skilled and innovative designer.
+                        </p>
+                        <p>
+                            I believe that good design is not just about looking beautiful; it is about meeting user needs, enhancing functionality, and creating memorable experiences. I am always excited to work on projects that have a positive real-world impact and make users’ lives easier and more enjoyable.
+                        </p>
+                    </div>
+                    <div class="skills">
+                        <h3>Skills & Expertise</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fas fa-paint-brush"></i>
+                                <span>UI Design</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-users"></i>
+                                <span>UX Research</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>Responsive & Mobile-First Design</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-cube"></i>
+                                <span>Wireframing & User Flow Creation</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Mobile Design</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-eye"></i>
+                                <span>Prototyping & Interactive Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-3d">
+                    <canvas id="about-canvas"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Design Insights</h2>
+                <p class="section-subtitle">Thoughts on design, technology, and creativity</p>
+            </div>
+
+            <div class="blog-3d">
+                <canvas id="blog-canvas"></canvas>
+            </div>
+
+            <div class="blog-grid">
+                <article class="blog-post">
+                    <div class="post-image">
+                        <div class="blog-image-placeholder"
+                            style="background: linear-gradient(135deg, #000000 0%, #000000 100%); width: 100%; height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                            UI Design Trends</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">December 15, 2024</span>
+                            <span class="post-category">UI Design</span>
+                        </div>
+                        <h3>The Future of UI Design: Trends to Watch in 2025</h3>
+                        <p>Exploring upcoming trends in user interface design, from immersive 3D interfaces to
+                            AI-powered personalization...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-post">
+                    <div class="post-image">
+                        <div class="blog-image-placeholder"
+                            style="background: linear-gradient(135deg, #000000 0%, #000000 100%); width: 100%; height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                            3D Web Design</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">December 10, 2024</span>
+                            <span class="post-category">3D Design</span>
+                        </div>
+                        <h3>Creating Immersive 3D Experiences on the Web</h3>
+                        <p>A deep dive into Three.js and WebGL for creating engaging 3D web experiences that captivate
+                            users...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-post">
+                    <div class="post-image">
+                        <div class="blog-image-placeholder"
+                            style="background: linear-gradient(135deg, #000000 0%, #000000 100%); width: 100%; height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                            UX Research</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">December 5, 2024</span>
+                            <span class="post-category">UX Research</span>
+                        </div>
+                        <h3>User Research in the Digital Age</h3>
+                        <p>Modern approaches to understanding user behavior and creating data-driven design decisions...
+                        </p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-post">
+                    <div class="post-image">
+                        <div class="blog-image-placeholder"
+                            style="background: linear-gradient(135deg, #000000 0%, #000000 100%); width: 100%; height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                            Design Systems</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">November 28, 2024</span>
+                            <span class="post-category">Design Systems</span>
+                        </div>
+                        <h3>Building Scalable Design Systems</h3>
+                        <p>Best practices for creating and maintaining design systems that grow with your product...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-post">
+                    <div class="post-image">
+                        <div class="blog-image-placeholder"
+                            style="background: linear-gradient(135deg,  #000000 0%, #000000 100%); width: 100%; height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                            Mobile UX</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">November 20, 2024</span>
+                            <span class="post-category">Mobile UX</span>
+                        </div>
+                        <h3>Mobile-First Design Strategies</h3>
+                        <p>Designing for mobile devices and creating seamless experiences across all screen sizes...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-post">
+                    <div class="post-image">
+                        <div class="blog-image-placeholder"
+                            style="background: linear-gradient(135deg, #000000 0%, #000000 100%); width: 100%; height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                            AI in Design</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">November 15, 2024</span>
+                            <span class="post-category">AI & Design</span>
+                        </div>
+                        <h3>AI Tools in the Designer's Toolkit</h3>
+                        <p>How artificial intelligence is transforming the design process and enhancing creativity...
+                        </p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Ready to bring your ideas to life</p>
+            </div>
+            <div class="contact-3d">
+                <canvas id="contact-canvas"></canvas>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>sheikh.meghla.dev@email.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+8801646628341</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Dhaka Bangladesh</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body">
+                <!-- Project details will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Meghla. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+                <!-- <div class="portfolio-3d">
+                    <canvas id="portfolio-canvas"></canvas>
+                </div> -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="three-scene.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
