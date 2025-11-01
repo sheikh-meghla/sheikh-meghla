@@ -666,18 +666,11 @@ body::before {
     margin-bottom: 1rem;
 }
 
-.post-date,
 .post-category {
     font-size: 0.875rem;
-    color: #3d2717;
-    text-shadow: 0 1px 3px rgba(255, 255, 255, 0.4);
-    font-weight: 500;
-}
-
-.post-category {
     color: #654321;
-    font-weight: 700;
     text-shadow: 0 1px 3px rgba(255, 255, 255, 0.5);
+    font-weight: 700;
 }
 
 .blog-post h3 {
