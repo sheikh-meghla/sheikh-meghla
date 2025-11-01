@@ -76,7 +76,6 @@ const blogData = {
     'UI Design Trends': {
         title: 'The Future of UI Design: Trends to Watch in 2025',
         titleBangla: 'UI ডিজাইনের ভবিষ্যৎ: ২০২৫ সালে যে ট্রেন্ডগুলো দেখার জন্য প্রস্তুত থাকুন',
-        date: 'December 15, 2024',
         category: 'UI Design',
         content: `
             <h3>UI ডিজাইনের ভবিষ্যৎ: ২০২৫ সালে যে ট্রেন্ডগুলো দেখার জন্য প্রস্তুত থাকুন</h3>
@@ -105,7 +104,6 @@ const blogData = {
     '3D Web Design': {
         title: 'Creating Immersive 3D Experiences on the Web',
         titleBangla: 'ওয়েবে ইমার্সিভ 3D এক্সপেরিয়েন্স তৈরি করা',
-        date: 'December 10, 2024',
         category: '3D Design',
         content: `
             <h3>ওয়েবে ইমার্সিভ 3D এক্সপেরিয়েন্স তৈরি করা</h3>
@@ -150,7 +148,6 @@ const blogData = {
     'UX Research': {
         title: 'User Research in the Digital Age',
         titleBangla: 'ডিজিটাল যুগে ইউজার রিসার্চ',
-        date: 'December 5, 2024',
         category: 'UX Research',
         content: `
             <h3>ডিজিটাল যুগে ইউজার রিসার্চ</h3>
@@ -207,7 +204,6 @@ const blogData = {
     'Design Systems': {
         title: 'Building Scalable Design Systems',
         titleBangla: 'স্কেলেবল ডিজাইন সিস্টেম তৈরি করা',
-        date: 'November 28, 2024',
         category: 'Design Systems',
         content: `
             <h3>স্কেলেবল ডিজাইন সিস্টেম তৈরি করা</h3>
@@ -296,7 +292,6 @@ colors: {
     'Mobile UX': {
         title: 'Mobile-First Design Strategies',
         titleBangla: 'মোবাইল-ফার্স্ট ডিজাইন স্ট্র্যাটেজি',
-        date: 'November 20, 2024',
         category: 'Mobile UX',
         content: `
             <h3>মোবাইল-ফার্স্ট ডিজাইন স্ট্র্যাটেজি</h3>
@@ -401,7 +396,6 @@ colors: {
     'AI in Design': {
         title: 'AI Tools in the Designer\'s Toolkit',
         titleBangla: 'ডিজাইনার টুলকিটে AI টুলস',
-        date: 'November 15, 2024',
         category: 'AI & Design',
         content: `
             <h3>ডিজাইনার টুলকিটে AI টুলস</h3>
