@@ -77,6 +77,7 @@ const projectData = {
         title: 'Ten Minute School',
         description: '10 Minute School (Bengali: ১০ মিনিট স্কুল, abbreviated as 10MS) is an online educational platform in Bangladesh created in 2015 by Ayman Sadiq.',
         technologies: ['Figma', 'Principle', 'After Effects'],
+        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
         features: [
             'Live Classes',
             'Recorded Courses',
@@ -101,6 +102,7 @@ const projectData = {
         title: 'Analytics Dashboard',
         description: 'A data visualization dashboard that transforms complex analytics into actionable insights. Focus on clean information architecture and intuitive data presentation.',
         technologies: ['Figma', 'Prototype', 'Wireframe'],
+        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
         features: ['Money Transfer', 'Pay Bill', 'Mobile Banking', 'Mobile Reacharge'],
         images: [
             'project-images/bkash/2.png',
@@ -113,6 +115,7 @@ const projectData = {
         title: 'Ride sahre platform pathao',
         description: 'Complete e-commerce experience design focusing on conversion optimization and user engagement. Streamlined checkout process and intuitive product discovery.',
         technologies: ['Adobe XD', 'Figma', 'Hotjar'],
+        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
         features: ['Ride-sharing (Bike, Car, CNG)',
             'Food Delivery',
             'Courier / Parcel Delivery',
@@ -130,6 +133,7 @@ const projectData = {
         title: 'imo',
         description: 'Engaging social platform design with focus on community building and content sharing. Implemented modern interaction patterns and accessibility features.',
         technologies: ['Figma', 'Framer', 'Lottie'],
+        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
         features: ['High-quality Video & Voice Calls',
            'Instant Messaging (Text, Photo, Video)',
            'Group Chat & Group Video Call',
@@ -150,6 +154,7 @@ const projectData = {
         title: 'amazon',
         description: 'Amazon হলো বিশ্বের সবচেয়ে বড় e-commerce এবং technology company। এটি 1994 সালে Jeff Bezos প্রতিষ্ঠা করেন। শুরুতে শুধু অনলাইনে বই বিক্রি করলেও এখন Amazon হয়ে উঠেছে একটি global marketplace যেখানে প্রায় সবকিছুই কেনা যায়।.',
         technologies: ['Sketch', 'Principle', 'Zeplin'],
+        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
         features: ['Online Shopping',
            'Product Categories',
            'Fast Delivery',
@@ -172,6 +177,7 @@ const projectData = {
         title: 'body fitness',
         description: 'A Body Fitness App হলো এমন একটি mobile application যা ব্যবহারকারীদের স্বাস্থ্য ও ফিটনেস উন্নত করতে সাহায্য করে। সাধারণত এতে exercise plans, diet suggestions, progress tracking ইত্যাদি থাকে।',
         technologies: ['Figma', 'Abstract', 'Maze'],
+        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
        features: ['Workout Plans',
            'Diet & Nutrition',
            'Progress Tracking',
@@ -189,6 +195,7 @@ const projectData = {
         title: 'sobji bazar',
         description: 'Sobji Bazar মানে হলো অনলাইনে বা অফলাইনে সবজি কেনাবেচার বাজার। বর্তমানে অনেক e-commerce বা mobile app আছে যেগুলো তাজা শাকসবজি, ফল, মসলা ইত্যাদি বাসায় ডেলিভারি দেয়।',
         technologies: ['WordPress', 'SCSS', 'JavaScript'],
+        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
       features: ['Fresh Vegetables & Fruits',
            'Home Delivery Service',
            'Order Tracking',
@@ -207,6 +214,7 @@ const projectData = {
         title: 'youtube',
         description: 'YouTube হলো বিশ্বের সবচেয়ে বড় video-sharing platform, যেটি 2005 সালে চালু হয় এবং বর্তমানে Google-এর মালিকানাধীন। এখানে ব্যবহারকারীরা ভিডিও upload, watch, share, like, comment এবং subscribe করতে পারে।',
         technologies: ['React', 'Three.js', 'GSAP'],
+        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
        features: ['Video Upload & Sharing',
            'Personalized Recommendations',
            'Subscribe & Notifications',
@@ -226,6 +234,7 @@ const projectData = {
         title: 'tiktok',
         description: 'TikTok হলো একটি জনপ্রিয় short-video sharing social media app, যেখানে ব্যবহারকারীরা সাধারণত 15 সেকেন্ড থেকে 10 মিনিট পর্যন্ত ভিডিও তৈরি, এডিট ও শেয়ার করতে পারে। এটি মূলত entertainment, music, dance, comedy, lifestyle, এবং creative content এর জন্য ব্যবহৃত হয়।',
         technologies: ['React', 'Three.js', 'GSAP'],
+        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
       features: ['Short Video Creation & Sharing',
            'Filters, Music & Effects',
            'For You Page (Personalized Feed)',
@@ -246,6 +255,7 @@ const projectData = {
         title: 'Arbi Learning',
         description: 'Arabic Learning (Arbi Learning) হলো এমন একটি language learning app/platform, যা ব্যবহারকারীদের আরবি ভাষা শেখার জন্য তৈরি। এটি সাধারণত reading, writing, speaking, listening, এবং Quranic Arabic শেখার সুবিধা দেয়।',
         technologies: ['React', 'Three.js', 'GSAP'],
+        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
       features: ['Arabic Alphabet & Pronunciation',
            'Basic Grammar & Vocabulary',
            'Speaking & Listening Practice',
@@ -303,7 +313,12 @@ function showProjectModal(projectId) {
                 <div class="project-section">
                     <h3>Technologies Used</h3>
                     <div class="tech-tags">
-                        ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+                        <!-- Only show Figma as requested and provide an optional link button -->
+                        <span class="tech-tag">Figma</span>
+                        <a class="tech-tag" href="${project.figmaLink ? project.figmaLink : '#'}" target="_blank" rel="noopener noreferrer" aria-label="Open in Figma">
+                            <i class="fab fa-figma" aria-hidden="true"></i>
+                            <span>Open in Figma</span>
+                        </a>
                     </div>
                 </div>
                 
@@ -501,7 +516,9 @@ const modalStyles = `
     .tech-tags {
         display: flex;
         flex-wrap: wrap;
-        gap: 0.5rem;
+        gap: 0.75rem;
+        align-items: center;
+        width: 100%;
     }
     
     .tech-tag {
@@ -513,6 +530,36 @@ const modalStyles = `
         font-weight: 600;
         text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
         box-shadow: 0 2px 8px rgba(76, 50, 33, 0.3);
+        flex: 0 0 auto;
+        margin-right: 0.5rem;
+    }
+
+    /* Figma CTA button styles */
+    .figma-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 8px 14px;
+        background: linear-gradient(90deg, #FF7262 0%, #F24E79 100%);
+        color: #fff;
+        border-radius: 20px;
+        font-size: 0.95rem;
+        font-weight: 700;
+        text-decoration: none;
+        box-shadow: 0 8px 20px rgba(242, 78, 121, 0.18);
+        transition: transform .12s ease, box-shadow .12s ease, opacity .12s ease;
+        margin-left: auto; /* push to the right when space allows */
+    }
+
+    .figma-btn i {
+        font-size: 1.05rem;
+        line-height: 1;
+    }
+
+    .figma-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 12px 30px rgba(242, 78, 121, 0.22);
+        opacity: 0.98;
     }
     
     .feature-list {
@@ -538,6 +585,16 @@ const modalStyles = `
         .project-detail {
             grid-template-columns: 1fr;
             gap: 1rem;
+        }
+        .tech-tags {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.5rem;
+        }
+        .figma-btn {
+            width: 100%;
+            justify-content: center;
+            margin-left: 0;
         }
     }
 `;
