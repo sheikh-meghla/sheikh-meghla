@@ -71,11 +71,10 @@ class ThreeScene {
             this.onDoubleClick(event);
         });
 
-        // Mouse scroll interaction
+        this.canvas.style.touchAction = 'pan-y'; // allow vertical scrolling on touch devices
         this.canvas.addEventListener('wheel', (event) => {
-            event.preventDefault();
             this.onMouseScroll(event);
-        });
+        }, { passive: true });
 
         // Raycaster for object detection
         this.raycaster = new THREE.Raycaster();
