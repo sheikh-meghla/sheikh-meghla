@@ -71,9 +71,6 @@ class ThreeScene {
             this.onDoubleClick(event);
         });
 
-        // Mouse scroll interaction — use passive listener so page scrolling isn't blocked
-        // Do NOT call preventDefault here; allow the browser to handle page scroll while
-        // still letting the scene respond to scroll events.
         this.canvas.style.touchAction = 'pan-y'; // allow vertical scrolling on touch devices
         this.canvas.addEventListener('wheel', (event) => {
             this.onMouseScroll(event);
