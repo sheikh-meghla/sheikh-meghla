@@ -499,7 +499,7 @@ const projectData = {
         title: 'Ten Minute School',
         description: '10 Minute School (Bengali: ১০ মিনিট স্কুল, abbreviated as 10MS) is an online educational platform in Bangladesh created in 2015 by Ayman Sadiq.',
         technologies: ['Figma', 'Principle', 'After Effects'],
-        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
+        figmaLink: 'https://www.figma.com/design/Vs8sPD8PTnx3iS8bkra53Q/Ten-minute-School?node-id=0-1&p=f&t=zX3t9HICPWOC0wyp-0', // optional Figma link
         features: [
             'Live Classes',
             'Recorded Courses',
@@ -524,7 +524,7 @@ const projectData = {
         title: 'Analytics Dashboard',
         description: 'A data visualization dashboard that transforms complex analytics into actionable insights. Focus on clean information architecture and intuitive data presentation.',
         technologies: ['Figma', 'Prototype', 'Wireframe'],
-        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
+        figmaLink: 'https://www.figma.com/design/V7oclJOUP4Cgf2CLfMZk92/bKash?node-id=0-1&p=f&t=Av3bCUCQ5EmZtwfp-0', // optional Figma link
         features: ['Money Transfer', 'Pay Bill', 'Mobile Banking', 'Mobile Reacharge'],
         images: [
             'project-images/bkash/2.png',
@@ -537,7 +537,7 @@ const projectData = {
         title: 'Ride sahre platform pathao',
         description: 'Complete e-commerce experience design focusing on conversion optimization and user engagement. Streamlined checkout process and intuitive product discovery.',
         technologies: ['Adobe XD', 'Figma', 'Hotjar'],
-        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
+        figmaLink: 'https://www.figma.com/design/nK0aWc3pLlXYFQnkba0QtV/Pathao?t=6nCoHJ5GagSRk0Ru-0', // optional Figma link
         features: ['Ride-sharing (Bike, Car, CNG)',
             'Food Delivery',
             'Courier / Parcel Delivery',
@@ -555,7 +555,7 @@ const projectData = {
         title: 'imo',
         description: 'Engaging social platform design with focus on community building and content sharing. Implemented modern interaction patterns and accessibility features.',
         technologies: ['Figma', 'Framer', 'Lottie'],
-        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
+        figmaLink: 'https://www.figma.com/design/I5piToaNhofNPTWidBTE86/Imo?node-id=3315-2&p=f&t=3o3ixDGXMTARuzUX-0', // optional Figma link
         features: ['High-quality Video & Voice Calls',
            'Instant Messaging (Text, Photo, Video)',
            'Group Chat & Group Video Call',
@@ -576,7 +576,7 @@ const projectData = {
         title: 'amazon',
         description: 'Amazon হলো বিশ্বের সবচেয়ে বড় e-commerce এবং technology company। এটি 1994 সালে Jeff Bezos প্রতিষ্ঠা করেন। শুরুতে শুধু অনলাইনে বই বিক্রি করলেও এখন Amazon হয়ে উঠেছে একটি global marketplace যেখানে প্রায় সবকিছুই কেনা যায়।.',
         technologies: ['Sketch', 'Principle', 'Zeplin'],
-        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
+        figmaLink: 'https://www.figma.com/design/5ABNwVIbJgmWkDuXRYTG4j/amazon?node-id=0-1&p=f&t=1kJP3MZSQPCg5FRT-0', // optional Figma link
         features: ['Online Shopping',
            'Product Categories',
            'Fast Delivery',
@@ -599,7 +599,7 @@ const projectData = {
         title: 'body fitness',
         description: 'A Body Fitness App হলো এমন একটি mobile application যা ব্যবহারকারীদের স্বাস্থ্য ও ফিটনেস উন্নত করতে সাহায্য করে। সাধারণত এতে exercise plans, diet suggestions, progress tracking ইত্যাদি থাকে।',
         technologies: ['Figma', 'Abstract', 'Maze'],
-        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
+        figmaLink: 'https://www.figma.com/design/NIHnM2HLRtCFCEhH30eaKZ/AI--Fitsnap?node-id=0-1&p=f&t=6CxELvsiJmzlZk81-0', // optional Figma link
        features: ['Workout Plans',
            'Diet & Nutrition',
            'Progress Tracking',
@@ -617,7 +617,7 @@ const projectData = {
         title: 'sobji bazar',
         description: 'Sobji Bazar মানে হলো অনলাইনে বা অফলাইনে সবজি কেনাবেচার বাজার। বর্তমানে অনেক e-commerce বা mobile app আছে যেগুলো তাজা শাকসবজি, ফল, মসলা ইত্যাদি বাসায় ডেলিভারি দেয়।',
         technologies: ['WordPress', 'SCSS', 'JavaScript'],
-        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
+        figmaLink: 'https://www.figma.com/design/fScHWdb8DITGvWrfBo6gJG/SOBJI-BAZAR?t=6CxELvsiJmzlZk81-0', // optional Figma link
       features: ['Fresh Vegetables & Fruits',
            'Home Delivery Service',
            'Order Tracking',
@@ -636,7 +636,7 @@ const projectData = {
         title: 'youtube',
         description: 'YouTube হলো বিশ্বের সবচেয়ে বড় video-sharing platform, যেটি 2005 সালে চালু হয় এবং বর্তমানে Google-এর মালিকানাধীন। এখানে ব্যবহারকারীরা ভিডিও upload, watch, share, like, comment এবং subscribe করতে পারে।',
         technologies: ['React', 'Three.js', 'GSAP'],
-        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
+        figmaLink: 'https://www.figma.com/design/MjFzFT8HKDot2JVfiDalMx/youtube-clon?node-id=0-1&p=f&t=6CxELvsiJmzlZk81-0', // optional Figma link
        features: ['Video Upload & Sharing',
            'Personalized Recommendations',
            'Subscribe & Notifications',
@@ -656,7 +656,7 @@ const projectData = {
         title: 'tiktok',
         description: 'TikTok হলো একটি জনপ্রিয় short-video sharing social media app, যেখানে ব্যবহারকারীরা সাধারণত 15 সেকেন্ড থেকে 10 মিনিট পর্যন্ত ভিডিও তৈরি, এডিট ও শেয়ার করতে পারে। এটি মূলত entertainment, music, dance, comedy, lifestyle, এবং creative content এর জন্য ব্যবহৃত হয়।',
         technologies: ['React', 'Three.js', 'GSAP'],
-        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
+        figmaLink: 'https://www.figma.com/design/r3NsJCMpoQBUbBv6hmaXQt/tiktok?node-id=0-1&p=f&t=ln2jStmc1BcBO7iS-0', // optional Figma link
       features: ['Short Video Creation & Sharing',
            'Filters, Music & Effects',
            'For You Page (Personalized Feed)',
@@ -677,7 +677,7 @@ const projectData = {
         title: 'Arbi Learning',
         description: 'Arabic Learning (Arbi Learning) হলো এমন একটি language learning app/platform, যা ব্যবহারকারীদের আরবি ভাষা শেখার জন্য তৈরি। এটি সাধারণত reading, writing, speaking, listening, এবং Quranic Arabic শেখার সুবিধা দেয়।',
         technologies: ['React', 'Three.js', 'GSAP'],
-        figmaLink: 'https://www.figma.com/file/YourFigmaFileLink', // optional Figma link
+        figmaLink: 'https://www.figma.com/design/dvKPQh7nldnismYWPFH27f/Arbi-Learning?t=Qghn097SOahfoNGq-0', // optional Figma link
       features: ['Arabic Alphabet & Pronunciation',
            'Basic Grammar & Vocabulary',
            'Speaking & Listening Practice',
