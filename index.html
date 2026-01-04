@@ -22,6 +22,27 @@
 <body>
     <div class="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute" id="spotlight"></div>
 
+    <!-- Mobile Header -->
+    <div
+        class="lg:hidden sticky top-0 z-40 w-full bg-slate-900/90 backdrop-blur px-6 py-4 flex justify-between items-center border-b border-slate-800">
+        <a href="/" class="text-slate-200 font-bold text-lg">Sheikh Meghla</a>
+        <button id="mobile-menu-btn" class="text-slate-200 focus:outline-none" aria-label="Toggle Menu">
+            <i class="fa-solid fa-bars fa-lg"></i>
+        </button>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu"
+        class="fixed inset-0 z-50 bg-slate-900 transform translate-x-full transition-transform duration-300 lg:hidden flex flex-col items-center justify-center space-y-8">
+        <button id="close-menu-btn" class="absolute top-6 right-6 text-slate-200 text-2xl focus:outline-none"
+            aria-label="Close Menu">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <a href="#about" class="mobile-link text-2xl font-bold text-slate-200 hover:text-teal-300">About</a>
+        <a href="#experience" class="mobile-link text-2xl font-bold text-slate-200 hover:text-teal-300">Experience</a>
+        <a href="#projects" class="mobile-link text-2xl font-bold text-slate-200 hover:text-teal-300">Projects</a>
+    </div>
+
     <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
         <div class="lg:flex lg:justify-between lg:gap-4">
 

@@ -9,6 +9,26 @@ document.addEventListener('DOMContentLoaded', () => {
         spotlight.style.setProperty('--y', `${y}px`);
     });
 
+    // Mobile Menu Logic
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const closeMenuBtn = document.getElementById('close-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    function toggleMenu() {
+        mobileMenu.classList.toggle('translate-x-full');
+        document.body.classList.toggle('overflow-hidden');
+    }
+
+    if (mobileMenuBtn) {
+        mobileMenuBtn.addEventListener('click', toggleMenu);
+        closeMenuBtn.addEventListener('click', toggleMenu);
+
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', toggleMenu);
+        });
+    }
+
     // Optional: Highlight active nav link on scroll
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('.nav-text');

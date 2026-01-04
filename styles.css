@@ -44,6 +44,13 @@ ol {
     padding: 0;
 }
 
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
 /* Layout Utilities (mimicking Tailwind classes used in HTML) */
 .min-h-screen {
     min-height: 100vh;
@@ -301,6 +308,10 @@ ol {
         display: block;
     }
 
+    .lg\:hidden {
+        display: none;
+    }
+
     .hidden {
         display: none;
     }
@@ -375,10 +386,36 @@ ol {
     .hidden.lg\:block {
         display: none;
     }
+}
 
-    .lg\:hidden {
-        display: block;
-    }
+/* Mobile Menu Utilities */
+.translate-x-full {
+    transform: translateX(100%);
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.space-y-8>*+* {
+    margin-top: 2rem;
+}
+
+.border-b {
+    border-bottom-width: 1px;
+}
+
+.border-slate-800 {
+    border-color: var(--slate-800);
+}
+
+.focus\:outline-none:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.bg-slate-900\/90 {
+    background-color: rgba(15, 23, 42, 0.9);
 }
 
 /* Missing Utilities Patch */
