@@ -1,70 +1,43 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Custom Cursor
-    const cursorDot = document.querySelector('.cursor-dot');
-    const cursorOutline = document.querySelector('.cursor-outline');
+    const spotlight = document.getElementById('spotlight');
 
-    window.addEventListener('mousemove', (e) => {
-        const posX = e.clientX;
-        const posY = e.clientY;
-
-        // cursorDot.style.left = `${posX}px`;
-        // cursorDot.style.top = `${posY}px`;
-
-        cursorDot.animate({
-            left: `${posX}px`,
-            top: `${posY}px`
-        }, { duration: 100, fill: "forwards" });
-
-        cursorOutline.animate({
-            left: `${posX}px`,
-            top: `${posY}px`
-        }, { duration: 500, fill: "forwards" });
+    // Update spotlight position on mouse move
+    document.addEventListener('mousemove', (e) => {
+        const x = e.clientX;
+        const y = e.clientY;
+        spotlight.style.setProperty('--x', `${x}px`);
+        spotlight.style.setProperty('--y', `${y}px`);
     });
 
-    // Smooth Scrolling for Anchors
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href');
-            if (targetId === '#') return;
-            const targetElement = document.querySelector(targetId);
-            if (targetElement) {
-                targetElement.scrollIntoView({
-                    behavior: 'smooth'
-                });
+    // Optional: Highlight active nav link on scroll
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-text');
+    const indicators = document.querySelectorAll('.nav-indicator');
+
+    window.addEventListener('scroll', () => {
+        let current = '';
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if (scrollY >= (sectionTop - 300)) {
+                current = section.getAttribute('id');
+            }
+        });
+
+        navLinks.forEach((link, index) => {
+            // Logic to highlight nav items based on 'current' section
+            // Reset styles
+            link.classList.remove('text-slate-200');
+            link.classList.add('text-slate-500');
+            indicators[index].classList.remove('w-16', 'bg-teal-300');
+            indicators[index].classList.add('w-8', 'bg-slate-600');
+
+            if (link.parentElement.getAttribute('href').includes(current)) {
+                link.classList.add('text-slate-200');
+                link.classList.remove('text-slate-500');
+                indicators[index].classList.add('w-16', 'bg-teal-300');
+                indicators[index].classList.remove('w-8', 'bg-slate-600');
             }
         });
     });
-
-    // Intersection Observer for Animations
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: "0px 0px -50px 0px"
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('fade-in-up');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, observerOptions);
-
-    document.querySelectorAll('.card, .section-title, .hero-text p, .hero-text h1, .hero-text h2').forEach(el => {
-        el.style.opacity = '0';
-        el.style.transform = 'translateY(20px)';
-        el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
-        observer.observe(el);
-    });
-
-    // Add class for animation
-    const style = document.createElement('style');
-    style.innerHTML = `
-        .fade-in-up {
-            opacity: 1 !important;
-            transform: translateY(0) !important;
-        }
-    `;
-    document.head.appendChild(style);
 });
