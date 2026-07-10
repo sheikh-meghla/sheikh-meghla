@@ -1,16 +1,27 @@
-## Hi there 👋
+## 💻 Competitive Programming
 
-<!--
-**sheikh-meghla/sheikh-meghla** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+### 🟢 LeetCode
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[![LeetCode Stats](https://leetcard.jacoblin.cool/sheikh-meghla?theme=dark\&font=Karma)](https://leetcode.com/u/sheikh-meghla/)
+
+---
+
+### 🔵 Codeforces
+
+[![Codeforces](https://codeforces-readme-stats.vercel.app/api/card?username=sheikh_meghla)](https://codeforces.com/profile/sheikh_meghla)
+
+---
+
+### 🟤 HackerRank
+
+[![HackerRank](https://img.shields.io/badge/HackerRank-Profile-2EC866?style=for-the-badge\&logo=hackerrank\&logoColor=white)](https://www.hackerrank.com/profile/sheikh_meghla_d1)
+
+---
+
+### 🟠 beecrowd
+
+[![beecrowd](https://img.shields.io/badge/beecrowd-Profile-00A8E8?style=for-the-badge)](https://judge.beecrowd.com/en/profile/1153629)
+
+</div>
