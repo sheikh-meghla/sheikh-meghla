@@ -1,4 +1,4 @@
-## 💻 Competitive Programming
+##  Competitive Programming
 
 <div align="center">
 
@@ -31,6 +31,9 @@
 ### Codeforces
 
 [![Codeforces](https://codeforces-readme-stats.vercel.app/api/card?username=sheikh_meghla)](https://codeforces.com/profile/sheikh_meghla)
+
+
+[![Codeforces](https://img.shields.io/badge/Codeforces-sheikh__meghla-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/sheikh_meghla)
 
 </td>
 
