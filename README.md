@@ -1,27 +1,6 @@
 ## 💻 Competitive Programming
+[![beecrowd](https://img.shields.io/badge/beecrowd-1153629-00A8E8)](https://judge.beecrowd.com/en/profile/1153629)
 
-<div align="center">
-
-### 🟢 LeetCode
-
-[![LeetCode Stats](https://leetcard.jacoblin.cool/sheikh-meghla?theme=dark\&font=Karma)](https://leetcode.com/u/sheikh-meghla/)
-
----
-
-### 🔵 Codeforces
-
-[![Codeforces](https://codeforces-readme-stats.vercel.app/api/card?username=sheikh_meghla)](https://codeforces.com/profile/sheikh_meghla)
-
----
-
-### 🟤 HackerRank
-
-[![HackerRank](https://img.shields.io/badge/HackerRank-Profile-2EC866?style=for-the-badge\&logo=hackerrank\&logoColor=white)](https://www.hackerrank.com/profile/sheikh_meghla_d1)
-
----
-
-### 🟠 beecrowd
-
-[![beecrowd](https://img.shields.io/badge/beecrowd-Profile-00A8E8?style=for-the-badge)](https://judge.beecrowd.com/en/profile/1153629)
-
-</div>
+[![Codeforces](https://img.shields.io/badge/Codeforces-sheikh__meghla-blue?logo=codeforces)](https://codeforces.com/profile/sheikh_meghla)
+[![LeetCode](https://img.shields.io/badge/LeetCode-sheikh--meghla-orange?logo=leetcode)](https://leetcode.com/u/sheikh-meghla/)
+[![HackerRank](https://img.shields.io/badge/HackerRank-sheikh__meghla__d1-2EC866?logo=hackerrank)](https://www.hackerrank.com/profile/sheikh_meghla_d1)
